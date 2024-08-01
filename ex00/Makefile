@@ -8,9 +8,13 @@ MAGENTA	=\033[1;35m\033[4m
 YELLOW	=\033[1;33m
 RESET	=\033[0m
 
-NAME = ClapTrap
+NAME = Animal
 
-SRC = 	ClapTrap.cpp \
+SRC = 	Animal.cpp \
+		Dog.cpp \
+		Cat.cpp \
+		WrongAnimal.cpp \
+		WrongCat.cpp \
 		main.cpp
 
 OBJ = $(SRC:.cpp=.o)

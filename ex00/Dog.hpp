@@ -6,7 +6,7 @@
 /*   By: etornay- <etornay-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/31 15:45:37 by etornay-          #+#    #+#             */
-/*   Updated: 2024/07/31 17:02:25 by etornay-         ###   ########.fr       */
+/*   Updated: 2024/08/01 17:30:02 by etornay-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
 class Dog:public Animal
 {
 	private:
-			std::string type;
 
 	public:
 			Dog(void);
@@ -25,5 +24,7 @@ class Dog:public Animal
 			Dog(const Dog &copy);
 			Dog &operator = (const Dog &other);
 			~Dog(void);
+
+			void makeSound(void) const;
 };
 #endif
