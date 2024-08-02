@@ -11,6 +11,7 @@ RESET	=\033[0m
 NAME = Animal
 
 SRC = 	Animal.cpp \
+		Brain.cpp \
 		Dog.cpp \
 		Cat.cpp \
 		WrongAnimal.cpp \
